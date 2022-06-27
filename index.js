@@ -41,16 +41,16 @@ app.use('/dishes', dishroutes);
 // });
 
 
-app.post('/contact', (req, res) => {
-    res.send(req.body);
-}
-);
+// app.post('/contact', (req, res) => {
+//     res.send(req.body);
+// }
+// );
 
-app.get('/contact', (req, res) => {
-    res.send('mail sent');
-    res.send(req.body);
-}
-);
+// app.get('/contact', (req, res) => {
+//     res.send('mail sent');
+//     res.send(req.body);
+// }
+// );
 app.listen(PORT, () => {
     console.log(`Server is listening on port : http://localhost:${PORT}`);
     });
